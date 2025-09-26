@@ -22,7 +22,7 @@
         <label class="form-label">Kategori</label>
         <select name="kategori" class="form-select" required>
           <option value="" disabled {{ old('kategori') ? '' : 'selected' }}>-- Pilih --</option>
-          @foreach (['Undangan','Pengumuman','Nota Dinas','Pemberitahuan'] as $opt)
+          @foreach ($kategoriOptions as $opt)
             <option value="{{ $opt }}" {{ old('kategori')===$opt ? 'selected' : '' }}>{{ $opt }}</option>
           @endforeach
         </select>

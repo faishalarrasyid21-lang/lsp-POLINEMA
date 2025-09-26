@@ -5,8 +5,8 @@
   <div class="card-body">
     <h5 class="card-title mb-3">Arsip Surat</h5>
     <p class="text-muted small mb-3">
-      Ketik kata pada kolom di bawah lalu klik <b>Cari</b>. Tabel akan menampilkan hanya surat dengan
-      judul yang mengandung kata tersebut. #ProductiveBukanProlog 😄
+      Masukkan kata kunci pada kolom pencarian di bawah ini untuk mencari surat berdasarkan judul. 
+      Sistem akan menampilkan data surat yang sesuai dengan kata kunci yang Anda masukkan.
     </p>
 
     <form method="GET" action="{{ route('surat.index') }}" class="row g-2 mb-3">
